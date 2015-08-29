@@ -55,7 +55,7 @@ namespace FalloutShelter.VaultData {
         public EquipedWeapon equipedWeapon { get; set; }
 
         public int savedRoom { get; set; }
-        public int lastChildBorn { get; set; }
+        public double lastChildBorn { get; set; }
         public string rarity { get; set; }
         public int deathTime { get; set; }
         public string uniqueData { get; set; }
